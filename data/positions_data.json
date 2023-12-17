@@ -1,0 +1,380 @@
+[
+    {
+        "uuid": "27fff89f81434756",
+        "positionName": "מעלה שלמה",
+        "shifts": [
+            {
+                "startTime": "00:00",
+                "endTime": "06:00",
+                "days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            },
+            {
+                "startTime": "06:00",
+                "endTime": "12:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            },
+            {
+                "startTime": "12:00",
+                "endTime": "18:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            },
+            {
+                "startTime": "18:00",
+                "endTime": "00:00",
+                "days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            }
+        ],
+        "requirements": [
+            {
+                "role": "שומר",
+                "count": 2,
+                "maxCount": null
+            },
+            {
+                "role": "חדש",
+                "count": 1,
+                "maxCount": 1
+            }
+        ]
+    },
+    {
+        "uuid": "54a4fea46cdf4964",
+        "positionName": "ש\"ג",
+        "shifts": [
+            {
+                "startTime": "00:00",
+                "endTime": "06:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            },
+            {
+                "startTime": "06:00",
+                "endTime": "12:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            },
+            {
+                "startTime": "12:00",
+                "endTime": "18:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            },
+            {
+                "startTime": "18:00",
+                "endTime": "00:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            }
+        ],
+        "requirements": [
+            {
+                "role": "שומר",
+                "count": 2,
+                "maxCount": null
+            },
+            {
+                "role": "חדש",
+                "count": 1,
+                "maxCount": 1
+            }
+        ]
+    },
+    {
+        "uuid": "876006e8c50a44fe",
+        "positionName": "מעלה אהוביה",
+        "shifts": [
+            {
+                "startTime": "00:00",
+                "endTime": "06:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            },
+            {
+                "startTime": "06:00",
+                "endTime": "12:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            },
+            {
+                "startTime": "12:00",
+                "endTime": "18:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            },
+            {
+                "startTime": "18:00",
+                "endTime": "00:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            }
+        ],
+        "requirements": [
+            {
+                "role": "שומר",
+                "count": 2,
+                "maxCount": null
+            },
+            {
+                "role": "חדש",
+                "count": 1,
+                "maxCount": 1
+            }
+        ]
+    },
+    {
+        "uuid": "c64a008a02df4d97",
+        "positionName": "מעוז אסתר",
+        "shifts": [
+            {
+                "startTime": "18:00",
+                "endTime": "00:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            },
+            {
+                "startTime": "00:00",
+                "endTime": "06:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            }
+        ],
+        "requirements": [
+            {
+                "role": "שומר",
+                "count": 2,
+                "maxCount": null
+            },
+            {
+                "role": "חדש",
+                "count": 1,
+                "maxCount": 1
+            }
+        ]
+    },
+    {
+        "uuid": "2c1abfdd793e4bba",
+        "positionName": "אעירה שחר",
+        "shifts": [
+            {
+                "startTime": "18:00",
+                "endTime": "00:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            },
+            {
+                "startTime": "00:00",
+                "endTime": "06:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            }
+        ],
+        "requirements": [
+            {
+                "role": "שומר",
+                "count": 2,
+                "maxCount": null
+            },
+            {
+                "role": "חדש",
+                "count": 1,
+                "maxCount": 1
+            }
+        ]
+    },
+    {
+        "uuid": "78379838e8894630",
+        "positionName": "כוננות",
+        "priority": 1,
+        "shifts": [
+            {
+                "startTime": "00:00",
+                "endTime": "00:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            }
+        ],
+        "requirements": [
+            {
+                "role": "שומר",
+                "count": 6,
+                "maxCount": null
+            },
+            {
+                "role": "מפקד",
+                "count": 1,
+                "maxCount": 1
+            },
+            {
+                "role": "חדש",
+                "count": 2,
+                "maxCount": 2
+            }
+        ]
+    },
+    {
+        "uuid": "d4dc5ea6c390454d",
+        "positionName": "סיור",
+        "priority": 0,
+        "shifts": [
+            {
+                "startTime": "18:00",
+                "endTime": "00:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            },
+            {
+                "startTime": "00:00",
+                "endTime": "06:00",
+                "days": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                ]
+            }
+        ],
+        "requirements": [
+            {
+                "role": "סייר",
+                "count": 1,
+                "maxCount": 1
+            },
+            {
+                "role": "נהג",
+                "count": 1,
+                "maxCount": 1
+            }
+        ]
+    }
+]

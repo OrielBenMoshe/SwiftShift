@@ -1,0 +1,1069 @@
+[
+  {
+    "uuid": "d4dc5ea6c390454d",
+    "positionName": "סיור",
+    "requirements": [
+      {
+        "role": "סייר",
+        "count": 1,
+        "maxCount": 1
+      },
+      {
+        "role": "נהג",
+        "count": 1,
+        "maxCount": 1
+      }
+    ],
+    "days": [
+      {
+        "date": "2023-12-17",
+        "dayOfWeek": "monday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-18",
+        "dayOfWeek": "tuesday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-19",
+        "dayOfWeek": "wednesday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-20",
+        "dayOfWeek": "thursday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-21",
+        "dayOfWeek": "friday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-22",
+        "dayOfWeek": "saturday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-23",
+        "dayOfWeek": "sunday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-24",
+        "dayOfWeek": "monday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uuid": "78379838e8894630",
+    "positionName": "כוננות",
+    "requirements": [
+      {
+        "role": "שומר",
+        "count": 6,
+        "maxCount": null
+      },
+      {
+        "role": "מפקד",
+        "count": 1,
+        "maxCount": 1
+      },
+      {
+        "role": "חדש",
+        "count": 2,
+        "maxCount": 2
+      }
+    ],
+    "days": [
+      {
+        "date": "2023-12-17",
+        "dayOfWeek": "monday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-18",
+        "dayOfWeek": "tuesday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-19",
+        "dayOfWeek": "wednesday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-20",
+        "dayOfWeek": "thursday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-21",
+        "dayOfWeek": "friday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-22",
+        "dayOfWeek": "saturday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-23",
+        "dayOfWeek": "sunday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-24",
+        "dayOfWeek": "monday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "00:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uuid": "27fff89f81434756",
+    "positionName": "מעלה שלמה",
+    "requirements": [
+      {
+        "role": "שומר",
+        "count": 2,
+        "maxCount": null
+      },
+      {
+        "role": "חדש",
+        "count": 1,
+        "maxCount": 1
+      }
+    ],
+    "days": [
+      {
+        "date": "2023-12-17",
+        "dayOfWeek": "monday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-18",
+        "dayOfWeek": "tuesday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-19",
+        "dayOfWeek": "wednesday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-20",
+        "dayOfWeek": "thursday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-21",
+        "dayOfWeek": "friday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-22",
+        "dayOfWeek": "saturday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-23",
+        "dayOfWeek": "sunday",
+        "shifts": [
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-24",
+        "dayOfWeek": "monday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uuid": "54a4fea46cdf4964",
+    "positionName": "ש\"ג",
+    "requirements": [
+      {
+        "role": "שומר",
+        "count": 2,
+        "maxCount": null
+      },
+      {
+        "role": "חדש",
+        "count": 1,
+        "maxCount": 1
+      }
+    ],
+    "days": [
+      {
+        "date": "2023-12-17",
+        "dayOfWeek": "monday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-18",
+        "dayOfWeek": "tuesday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-19",
+        "dayOfWeek": "wednesday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-20",
+        "dayOfWeek": "thursday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-21",
+        "dayOfWeek": "friday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-22",
+        "dayOfWeek": "saturday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-23",
+        "dayOfWeek": "sunday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-24",
+        "dayOfWeek": "monday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uuid": "876006e8c50a44fe",
+    "positionName": "מעלה אהוביה",
+    "requirements": [
+      {
+        "role": "שומר",
+        "count": 2,
+        "maxCount": null
+      },
+      {
+        "role": "חדש",
+        "count": 1,
+        "maxCount": 1
+      }
+    ],
+    "days": [
+      {
+        "date": "2023-12-17",
+        "dayOfWeek": "monday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-18",
+        "dayOfWeek": "tuesday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-19",
+        "dayOfWeek": "wednesday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-20",
+        "dayOfWeek": "thursday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-21",
+        "dayOfWeek": "friday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-22",
+        "dayOfWeek": "saturday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-23",
+        "dayOfWeek": "sunday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-24",
+        "dayOfWeek": "monday",
+        "shifts": [
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          },
+          {
+            "startTime": "06:00",
+            "endTime": "12:00"
+          },
+          {
+            "startTime": "12:00",
+            "endTime": "18:00"
+          },
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uuid": "c64a008a02df4d97",
+    "positionName": "מעוז אסתר",
+    "requirements": [
+      {
+        "role": "שומר",
+        "count": 2,
+        "maxCount": null
+      },
+      {
+        "role": "חדש",
+        "count": 1,
+        "maxCount": 1
+      }
+    ],
+    "days": [
+      {
+        "date": "2023-12-17",
+        "dayOfWeek": "monday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-18",
+        "dayOfWeek": "tuesday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-19",
+        "dayOfWeek": "wednesday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-20",
+        "dayOfWeek": "thursday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-21",
+        "dayOfWeek": "friday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-22",
+        "dayOfWeek": "saturday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-23",
+        "dayOfWeek": "sunday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-24",
+        "dayOfWeek": "monday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uuid": "2c1abfdd793e4bba",
+    "positionName": "אעירה שחר",
+    "requirements": [
+      {
+        "role": "שומר",
+        "count": 2,
+        "maxCount": null
+      },
+      {
+        "role": "חדש",
+        "count": 1,
+        "maxCount": 1
+      }
+    ],
+    "days": [
+      {
+        "date": "2023-12-17",
+        "dayOfWeek": "monday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-18",
+        "dayOfWeek": "tuesday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-19",
+        "dayOfWeek": "wednesday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-20",
+        "dayOfWeek": "thursday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-21",
+        "dayOfWeek": "friday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-22",
+        "dayOfWeek": "saturday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-23",
+        "dayOfWeek": "sunday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-24",
+        "dayOfWeek": "monday",
+        "shifts": [
+          {
+            "startTime": "18:00",
+            "endTime": "00:00"
+          },
+          {
+            "startTime": "00:00",
+            "endTime": "06:00"
+          }
+        ]
+      }
+    ]
+  }
+]

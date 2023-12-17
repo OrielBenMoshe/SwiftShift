@@ -1,0 +1,813 @@
+[
+    {
+        "uuid": "cd682f7944204ffa",
+        "name": "יונתן פנירי",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "3647251591c24ea8",
+        "name": "משה הירש",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "5724019e981f4351",
+        "name": "שלמה יעיש",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "7fc37f4e0280477b",
+        "name": "נצחון עזאני",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "78a8d7fb6c824ce9",
+        "name": "ערן מדי",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר",
+            "מפקד",
+            "סייר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "7bccf13b1c9043a9",
+        "name": "אליהו אוחיון",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר",
+            "מפקד",
+            "סייר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "0840e2312d7849da",
+        "name": "עזרא סולומונט",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר",
+            "סייר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "a14688c549cd4c1a",
+        "name": "יהונתן גנקין",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "934eaaba00004068",
+        "name": "שמשון וידברג",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "122c711c5de1469e",
+        "name": "אבישר פרזות",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "f07ca683009b4ecc",
+        "name": "ארי קניג",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "201f3d0863d941d2",
+        "name": "אביעד אלפסי",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר",
+            "סייר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "6b864d184c9e4cd6",
+        "name": "אלחנן רחמים",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "1d7b45a59f934ea3",
+        "name": "אופיר רצון",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "45e86699dac247a5",
+        "name": "ישראל פוזס",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר",
+            "סייר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "956fe381c944406a",
+        "name": "דוד מסלה",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "163f96dd071043ac",
+        "name": "בעז סלוק",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר",
+            "סייר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "19931424331c433e",
+        "name": "עודד חדד",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "9cc2066738bd427a",
+        "name": "רזיאל פרנק",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "ca5b1ce9ad734008",
+        "name": "אלישמע יעקבי",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "0986449729b847c7",
+        "name": "בני גרינברג",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "0df480d8e03744ee",
+        "name": "איתמר שריפי",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "1068dbd8fadd4d0c",
+        "name": "צביקי רוזנברג",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "4b269da27bcb426d",
+        "name": "שאול דה מלאך",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "64ae1061eceb45a9",
+        "name": "אריאל בהט",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "a37400a6cfb24a32",
+        "name": "גבעון הלל",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר",
+            "סייר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "9931ba54cb4145e5",
+        "name": "אהרון סיימון",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "ede79715a6a54a17",
+        "name": "יהויכין רוט",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "b6fd46b4f6064bcb",
+        "name": "מוטי שמיס",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "98a01f017ac04958",
+        "name": "ברוך אליצור",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "6a84f468317445c1",
+        "name": "אליהו הלוי",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "32322ad7048842dc",
+        "name": "חזקי דרמון",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "52246c27c30d493c",
+        "name": "ידעיה כספי",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר",
+            "סייר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "80856c5a4a334500",
+        "name": "נפתלי אורבך",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "7e2d54cd8bfd4df7",
+        "name": "אבי אברמוביץ'",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר",
+            "מפקד",
+            "סייר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "b0f88f8ce3ea4acb",
+        "name": "אלעד רחמים",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר",
+            "מפקד"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "7e4b172668f94bc1",
+        "name": "יהושע פיטוסי",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "3c935e0cd669426b",
+        "name": "שי כהן",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "ae899be093554a22",
+        "name": "אריאל שניאור",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "49213edc0bc24a51",
+        "name": "אריאל אדלר",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "c917a602871c4bb0",
+        "name": "אוריאל בן משה",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "שומר"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    },
+    {
+        "uuid": "2b13f96975954514",
+        "name": "סייר הישוב",
+        "phone": "",
+        "email": "",
+        "roles": [
+            "נהג"
+        ],
+        "activeDays": {
+            "sunday": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true
+        },
+        "nonAvailabilities": []
+    }
+]
