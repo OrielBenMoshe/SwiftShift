@@ -1,7 +1,8 @@
 import fs, { readFileSync } from 'fs'
-import { Soldier, Position, Day, DaySchedule, ShiftDetail, DayShifts, PositionOnPriorities } from './types.js';
+import { Soldier, Position, Day, DaySchedule, ShiftDetail, DayWithShifts, PositionOnPriorities } from './types.js';
 import { createPrioritySortedPositions, createShiftsByDays } from './utils.js';
 import { addCandidatesToShifts } from './matchSoldiersToPositions.js';
+import { scheduling } from './scheduling.js';
 // import { scheduleSoldiersForDay } from '../utils';
 
 function readJsonFile<T>(filePath: string): T {
@@ -17,14 +18,15 @@ try {
     const today: Date = new Date();
     const date: string = today.toISOString().split('T')[0]; // יוצר מחרוזת עם התאריך בפורמט YYYY-MM-DD
 
-    const shifts: DayShifts[] = createShiftsByDays(today, numOfDays, positions);
+    const shifts: DayWithShifts[] = createShiftsByDays(today, numOfDays, positions);
     const prioritiesAndRequirements: PositionOnPriorities[] = createPrioritySortedPositions(today, numOfDays, positions);
-    const match: any = addCandidatesToShifts(soldiers, prioritiesAndRequirements, shifts)
-    
+    const shiftsByDateWithCandidates: any = addCandidatesToShifts(soldiers, prioritiesAndRequirements, shifts)
+    const schedule = scheduling(shiftsByDateWithCandidates, prioritiesAndRequirements, soldiers);
+
     // Write the new shifts object to a JSON file
     fs.writeFileSync('data/shifts_data.json', JSON.stringify(shifts, null, 2), 'utf8');
     fs.writeFileSync('data/priorities_data.json', JSON.stringify(prioritiesAndRequirements, null, 2), 'utf8');
-    fs.writeFileSync('data/match_data.json', JSON.stringify(match, null, 2), 'utf8');
+    fs.writeFileSync('data/match_data.json', JSON.stringify(shiftsByDateWithCandidates, null, 2), 'utf8');
     console.log('Data successfully written to jsons');
 
 } catch (err) {

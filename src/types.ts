@@ -62,10 +62,11 @@ export interface DaySchedule {
 }
 
 /** Types for Shifts list */
-export interface DayShifts {
+export interface DayWithShifts {
     date: string; // The date in YYYY-MM-DD format
     dayOfWeek: Day; // The day of the week (e.g., 'monday', 'tuesday', etc.)
-    shiftsByStartTime: Record<string, ShiftDetail[]>; // Object with start times as keys and arrays of shift details as values
+    shiftsByStartTime?: Record<string, ShiftDetail[]>; // Object with start times as keys and arrays of shift details as values
+    shifts?: ShiftTime[];
 }
 
 export interface ShiftDetail {
@@ -81,7 +82,7 @@ export type ShiftTime = { startTime: string, endTime: string };
 export interface DayWithShifts {
     date: string;
     dayOfWeek: Day;
-    shifts: ShiftTime[];
+    
 }
 
 export interface PositionOnPriorities {

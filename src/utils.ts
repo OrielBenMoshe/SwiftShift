@@ -1,5 +1,5 @@
 import { type } from "os";
-import { Day, Position, Soldier, DaySchedule, PositionWithShifts, ShiftWithSoldiers, SoldierOnShift, Shift, DayShifts, ShiftDetail, PositionOnPriorities, soldierRoles, ShiftTime, DayWithShifts } from "./types.js";
+import { Day, Position, Soldier, DaySchedule, PositionWithShifts, ShiftWithSoldiers, SoldierOnShift, Shift, DayWithShifts, ShiftDetail, PositionOnPriorities, soldierRoles, ShiftTime } from "./types.js";
 import dayjs from 'dayjs';
 
 /**
@@ -9,7 +9,7 @@ import dayjs from 'dayjs';
  * @param positions Array of positions with their respective shifts.
  * @returns 
  */
-export const createShiftsByDays = (startDate: Date, numOfDays: number, positions: Position[]): DayShifts[] => {
+export const createShiftsByDays = (startDate: Date, numOfDays: number, positions: Position[]): DayWithShifts[] => {
     // Check to ensure the number of days does not exceed 20
     if (numOfDays > 20) {
         throw new Error('Number of days cannot exceed 20');
@@ -21,7 +21,7 @@ export const createShiftsByDays = (startDate: Date, numOfDays: number, positions
     let currentDate = new Date(startDate);
 
     // The array to store each day's shift information
-    const dayShifts: DayShifts[] = [];
+    const dayWithShifts: DayWithShifts[] = [];
 
     // Iterate over the number of days to create the shift schedule
     for (let i = 0; i < numOfDays; i++) {
@@ -50,14 +50,18 @@ export const createShiftsByDays = (startDate: Date, numOfDays: number, positions
         });
 
         // Add the day's shift information to the array
-        dayShifts.push({ date: dateStr, dayOfWeek, shiftsByStartTime: shiftStartTimes });
+        dayWithShifts.push({
+            date: dateStr, 
+            dayOfWeek, 
+            shiftsByStartTime: shiftStartTimes,
+        });
 
         // Move to the next day
         currentDate.setDate(currentDate.getDate() + 1);
     }
 
     // Return the array of day shifts
-    return dayShifts;
+    return dayWithShifts;
 };
 
 /**
