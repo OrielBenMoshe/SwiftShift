@@ -1,325 +1,107 @@
 [
   {
-    "date": "2023-12-17",
-    "dayOfWeek": "monday",
-    "shiftStartTimes": {
-      "00:00": [
-        {
-          "uuid": "27fff89f81434756",
-          "positionName": "מעלה שלמה",
-          "endTime": "06:00"
-        },
-        {
-          "uuid": "54a4fea46cdf4964",
-          "positionName": "ש\"ג",
-          "endTime": "06:00"
-        },
-        {
-          "uuid": "876006e8c50a44fe",
-          "positionName": "מעלה אהוביה",
-          "endTime": "06:00"
-        },
-        {
-          "uuid": "c64a008a02df4d97",
-          "positionName": "מעוז אסתר",
-          "endTime": "06:00"
-        },
-        {
-          "uuid": "2c1abfdd793e4bba",
-          "positionName": "אעירה שחר",
-          "endTime": "06:00"
-        },
-        {
-          "uuid": "78379838e8894630",
-          "positionName": "כוננות",
-          "endTime": "00:00"
-        },
-        {
-          "uuid": "d4dc5ea6c390454d",
-          "positionName": "סיור",
-          "endTime": "06:00"
-        }
-      ],
-      "06:00": [
-        {
-          "uuid": "27fff89f81434756",
-          "positionName": "מעלה שלמה",
-          "endTime": "12:00"
-        },
-        {
-          "uuid": "54a4fea46cdf4964",
-          "positionName": "ש\"ג",
-          "endTime": "12:00"
-        },
-        {
-          "uuid": "876006e8c50a44fe",
-          "positionName": "מעלה אהוביה",
-          "endTime": "12:00"
-        }
-      ],
-      "12:00": [
-        {
-          "uuid": "27fff89f81434756",
-          "positionName": "מעלה שלמה",
-          "endTime": "18:00"
-        },
-        {
-          "uuid": "54a4fea46cdf4964",
-          "positionName": "ש\"ג",
-          "endTime": "18:00"
-        },
-        {
-          "uuid": "876006e8c50a44fe",
-          "positionName": "מעלה אהוביה",
-          "endTime": "18:00"
-        }
-      ],
-      "18:00": [
-        {
-          "uuid": "27fff89f81434756",
-          "positionName": "מעלה שלמה",
-          "endTime": "00:00"
-        },
-        {
-          "uuid": "54a4fea46cdf4964",
-          "positionName": "ש\"ג",
-          "endTime": "00:00"
-        },
-        {
-          "uuid": "876006e8c50a44fe",
-          "positionName": "מעלה אהוביה",
-          "endTime": "00:00"
-        },
-        {
-          "uuid": "c64a008a02df4d97",
-          "positionName": "מעוז אסתר",
-          "endTime": "00:00"
-        },
-        {
-          "uuid": "2c1abfdd793e4bba",
-          "positionName": "אעירה שחר",
-          "endTime": "00:00"
-        },
-        {
-          "uuid": "d4dc5ea6c390454d",
-          "positionName": "סיור",
-          "endTime": "00:00"
-        }
-      ]
-    }
-  },
-  {
-    "date": "2023-12-18",
-    "dayOfWeek": "tuesday",
-    "shiftStartTimes": {
-      "00:00": [
-        {
-          "uuid": "27fff89f81434756",
-          "positionName": "מעלה שלמה",
-          "endTime": "06:00"
-        },
-        {
-          "uuid": "54a4fea46cdf4964",
-          "positionName": "ש\"ג",
-          "endTime": "06:00"
-        },
-        {
-          "uuid": "876006e8c50a44fe",
-          "positionName": "מעלה אהוביה",
-          "endTime": "06:00"
-        },
-        {
-          "uuid": "c64a008a02df4d97",
-          "positionName": "מעוז אסתר",
-          "endTime": "06:00"
-        },
-        {
-          "uuid": "2c1abfdd793e4bba",
-          "positionName": "אעירה שחר",
-          "endTime": "06:00"
-        },
-        {
-          "uuid": "78379838e8894630",
-          "positionName": "כוננות",
-          "endTime": "00:00"
-        },
-        {
-          "uuid": "d4dc5ea6c390454d",
-          "positionName": "סיור",
-          "endTime": "06:00"
-        }
-      ],
-      "06:00": [
-        {
-          "uuid": "27fff89f81434756",
-          "positionName": "מעלה שלמה",
-          "endTime": "12:00"
-        },
-        {
-          "uuid": "54a4fea46cdf4964",
-          "positionName": "ש\"ג",
-          "endTime": "12:00"
-        },
-        {
-          "uuid": "876006e8c50a44fe",
-          "positionName": "מעלה אהוביה",
-          "endTime": "12:00"
-        }
-      ],
-      "12:00": [
-        {
-          "uuid": "27fff89f81434756",
-          "positionName": "מעלה שלמה",
-          "endTime": "18:00"
-        },
-        {
-          "uuid": "54a4fea46cdf4964",
-          "positionName": "ש\"ג",
-          "endTime": "18:00"
-        },
-        {
-          "uuid": "876006e8c50a44fe",
-          "positionName": "מעלה אהוביה",
-          "endTime": "18:00"
-        }
-      ],
-      "18:00": [
-        {
-          "uuid": "27fff89f81434756",
-          "positionName": "מעלה שלמה",
-          "endTime": "00:00"
-        },
-        {
-          "uuid": "54a4fea46cdf4964",
-          "positionName": "ש\"ג",
-          "endTime": "00:00"
-        },
-        {
-          "uuid": "876006e8c50a44fe",
-          "positionName": "מעלה אהוביה",
-          "endTime": "00:00"
-        },
-        {
-          "uuid": "c64a008a02df4d97",
-          "positionName": "מעוז אסתר",
-          "endTime": "00:00"
-        },
-        {
-          "uuid": "2c1abfdd793e4bba",
-          "positionName": "אעירה שחר",
-          "endTime": "00:00"
-        },
-        {
-          "uuid": "d4dc5ea6c390454d",
-          "positionName": "סיור",
-          "endTime": "00:00"
-        }
-      ]
-    }
-  },
-  {
-    "date": "2023-12-19",
+    "date": "2024-01-03",
     "dayOfWeek": "wednesday",
-    "shiftStartTimes": {
+    "shiftsByStartTime": {
       "00:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "06:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "06:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "06:00"
         },
         {
-          "uuid": "c64a008a02df4d97",
+          "positionUuid": "c64a008a02df4d97",
           "positionName": "מעוז אסתר",
           "endTime": "06:00"
         },
         {
-          "uuid": "2c1abfdd793e4bba",
+          "positionUuid": "2c1abfdd793e4bba",
           "positionName": "אעירה שחר",
           "endTime": "06:00"
         },
         {
-          "uuid": "78379838e8894630",
+          "positionUuid": "78379838e8894630",
           "positionName": "כוננות",
           "endTime": "00:00"
         },
         {
-          "uuid": "d4dc5ea6c390454d",
+          "positionUuid": "d4dc5ea6c390454d",
           "positionName": "סיור",
           "endTime": "06:00"
         }
       ],
       "06:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "12:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "12:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "12:00"
         }
       ],
       "12:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "18:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "18:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "18:00"
         }
       ],
       "18:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "00:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "00:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "00:00"
         },
         {
-          "uuid": "c64a008a02df4d97",
+          "positionUuid": "c64a008a02df4d97",
           "positionName": "מעוז אסתר",
           "endTime": "00:00"
         },
         {
-          "uuid": "2c1abfdd793e4bba",
+          "positionUuid": "2c1abfdd793e4bba",
           "positionName": "אעירה שחר",
           "endTime": "00:00"
         },
         {
-          "uuid": "d4dc5ea6c390454d",
+          "positionUuid": "d4dc5ea6c390454d",
           "positionName": "סיור",
           "endTime": "00:00"
         }
@@ -327,108 +109,108 @@
     }
   },
   {
-    "date": "2023-12-20",
+    "date": "2024-01-04",
     "dayOfWeek": "thursday",
-    "shiftStartTimes": {
+    "shiftsByStartTime": {
       "00:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "06:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "06:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "06:00"
         },
         {
-          "uuid": "c64a008a02df4d97",
+          "positionUuid": "c64a008a02df4d97",
           "positionName": "מעוז אסתר",
           "endTime": "06:00"
         },
         {
-          "uuid": "2c1abfdd793e4bba",
+          "positionUuid": "2c1abfdd793e4bba",
           "positionName": "אעירה שחר",
           "endTime": "06:00"
         },
         {
-          "uuid": "78379838e8894630",
+          "positionUuid": "78379838e8894630",
           "positionName": "כוננות",
           "endTime": "00:00"
         },
         {
-          "uuid": "d4dc5ea6c390454d",
+          "positionUuid": "d4dc5ea6c390454d",
           "positionName": "סיור",
           "endTime": "06:00"
         }
       ],
       "06:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "12:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "12:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "12:00"
         }
       ],
       "12:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "18:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "18:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "18:00"
         }
       ],
       "18:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "00:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "00:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "00:00"
         },
         {
-          "uuid": "c64a008a02df4d97",
+          "positionUuid": "c64a008a02df4d97",
           "positionName": "מעוז אסתר",
           "endTime": "00:00"
         },
         {
-          "uuid": "2c1abfdd793e4bba",
+          "positionUuid": "2c1abfdd793e4bba",
           "positionName": "אעירה שחר",
           "endTime": "00:00"
         },
         {
-          "uuid": "d4dc5ea6c390454d",
+          "positionUuid": "d4dc5ea6c390454d",
           "positionName": "סיור",
           "endTime": "00:00"
         }
@@ -436,108 +218,108 @@
     }
   },
   {
-    "date": "2023-12-21",
+    "date": "2024-01-05",
     "dayOfWeek": "friday",
-    "shiftStartTimes": {
+    "shiftsByStartTime": {
       "00:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "06:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "06:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "06:00"
         },
         {
-          "uuid": "c64a008a02df4d97",
+          "positionUuid": "c64a008a02df4d97",
           "positionName": "מעוז אסתר",
           "endTime": "06:00"
         },
         {
-          "uuid": "2c1abfdd793e4bba",
+          "positionUuid": "2c1abfdd793e4bba",
           "positionName": "אעירה שחר",
           "endTime": "06:00"
         },
         {
-          "uuid": "78379838e8894630",
+          "positionUuid": "78379838e8894630",
           "positionName": "כוננות",
           "endTime": "00:00"
         },
         {
-          "uuid": "d4dc5ea6c390454d",
+          "positionUuid": "d4dc5ea6c390454d",
           "positionName": "סיור",
           "endTime": "06:00"
         }
       ],
       "06:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "12:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "12:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "12:00"
         }
       ],
       "12:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "18:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "18:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "18:00"
         }
       ],
       "18:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "00:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "00:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "00:00"
         },
         {
-          "uuid": "c64a008a02df4d97",
+          "positionUuid": "c64a008a02df4d97",
           "positionName": "מעוז אסתר",
           "endTime": "00:00"
         },
         {
-          "uuid": "2c1abfdd793e4bba",
+          "positionUuid": "2c1abfdd793e4bba",
           "positionName": "אעירה שחר",
           "endTime": "00:00"
         },
         {
-          "uuid": "d4dc5ea6c390454d",
+          "positionUuid": "d4dc5ea6c390454d",
           "positionName": "סיור",
           "endTime": "00:00"
         }
@@ -545,108 +327,108 @@
     }
   },
   {
-    "date": "2023-12-22",
+    "date": "2024-01-06",
     "dayOfWeek": "saturday",
-    "shiftStartTimes": {
+    "shiftsByStartTime": {
       "00:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "06:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "06:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "06:00"
         },
         {
-          "uuid": "c64a008a02df4d97",
+          "positionUuid": "c64a008a02df4d97",
           "positionName": "מעוז אסתר",
           "endTime": "06:00"
         },
         {
-          "uuid": "2c1abfdd793e4bba",
+          "positionUuid": "2c1abfdd793e4bba",
           "positionName": "אעירה שחר",
           "endTime": "06:00"
         },
         {
-          "uuid": "78379838e8894630",
+          "positionUuid": "78379838e8894630",
           "positionName": "כוננות",
           "endTime": "00:00"
         },
         {
-          "uuid": "d4dc5ea6c390454d",
+          "positionUuid": "d4dc5ea6c390454d",
           "positionName": "סיור",
           "endTime": "06:00"
         }
       ],
       "06:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "12:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "12:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "12:00"
         }
       ],
       "12:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "18:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "18:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "18:00"
         }
       ],
       "18:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "00:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "00:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "00:00"
         },
         {
-          "uuid": "c64a008a02df4d97",
+          "positionUuid": "c64a008a02df4d97",
           "positionName": "מעוז אסתר",
           "endTime": "00:00"
         },
         {
-          "uuid": "2c1abfdd793e4bba",
+          "positionUuid": "2c1abfdd793e4bba",
           "positionName": "אעירה שחר",
           "endTime": "00:00"
         },
         {
-          "uuid": "d4dc5ea6c390454d",
+          "positionUuid": "d4dc5ea6c390454d",
           "positionName": "סיור",
           "endTime": "00:00"
         }
@@ -654,98 +436,98 @@
     }
   },
   {
-    "date": "2023-12-23",
+    "date": "2024-01-07",
     "dayOfWeek": "sunday",
-    "shiftStartTimes": {
+    "shiftsByStartTime": {
       "06:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "12:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "12:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "12:00"
         }
       ],
       "12:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "18:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "18:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "18:00"
         }
       ],
       "00:00": [
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "06:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "06:00"
         },
         {
-          "uuid": "c64a008a02df4d97",
+          "positionUuid": "c64a008a02df4d97",
           "positionName": "מעוז אסתר",
           "endTime": "06:00"
         },
         {
-          "uuid": "2c1abfdd793e4bba",
+          "positionUuid": "2c1abfdd793e4bba",
           "positionName": "אעירה שחר",
           "endTime": "06:00"
         },
         {
-          "uuid": "78379838e8894630",
+          "positionUuid": "78379838e8894630",
           "positionName": "כוננות",
           "endTime": "00:00"
         },
         {
-          "uuid": "d4dc5ea6c390454d",
+          "positionUuid": "d4dc5ea6c390454d",
           "positionName": "סיור",
           "endTime": "06:00"
         }
       ],
       "18:00": [
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "00:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "00:00"
         },
         {
-          "uuid": "c64a008a02df4d97",
+          "positionUuid": "c64a008a02df4d97",
           "positionName": "מעוז אסתר",
           "endTime": "00:00"
         },
         {
-          "uuid": "2c1abfdd793e4bba",
+          "positionUuid": "2c1abfdd793e4bba",
           "positionName": "אעירה שחר",
           "endTime": "00:00"
         },
         {
-          "uuid": "d4dc5ea6c390454d",
+          "positionUuid": "d4dc5ea6c390454d",
           "positionName": "סיור",
           "endTime": "00:00"
         }
@@ -753,108 +535,217 @@
     }
   },
   {
-    "date": "2023-12-24",
+    "date": "2024-01-08",
     "dayOfWeek": "monday",
-    "shiftStartTimes": {
+    "shiftsByStartTime": {
       "00:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "06:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "06:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "06:00"
         },
         {
-          "uuid": "c64a008a02df4d97",
+          "positionUuid": "c64a008a02df4d97",
           "positionName": "מעוז אסתר",
           "endTime": "06:00"
         },
         {
-          "uuid": "2c1abfdd793e4bba",
+          "positionUuid": "2c1abfdd793e4bba",
           "positionName": "אעירה שחר",
           "endTime": "06:00"
         },
         {
-          "uuid": "78379838e8894630",
+          "positionUuid": "78379838e8894630",
           "positionName": "כוננות",
           "endTime": "00:00"
         },
         {
-          "uuid": "d4dc5ea6c390454d",
+          "positionUuid": "d4dc5ea6c390454d",
           "positionName": "סיור",
           "endTime": "06:00"
         }
       ],
       "06:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "12:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "12:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "12:00"
         }
       ],
       "12:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "18:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "18:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "18:00"
         }
       ],
       "18:00": [
         {
-          "uuid": "27fff89f81434756",
+          "positionUuid": "27fff89f81434756",
           "positionName": "מעלה שלמה",
           "endTime": "00:00"
         },
         {
-          "uuid": "54a4fea46cdf4964",
+          "positionUuid": "54a4fea46cdf4964",
           "positionName": "ש\"ג",
           "endTime": "00:00"
         },
         {
-          "uuid": "876006e8c50a44fe",
+          "positionUuid": "876006e8c50a44fe",
           "positionName": "מעלה אהוביה",
           "endTime": "00:00"
         },
         {
-          "uuid": "c64a008a02df4d97",
+          "positionUuid": "c64a008a02df4d97",
           "positionName": "מעוז אסתר",
           "endTime": "00:00"
         },
         {
-          "uuid": "2c1abfdd793e4bba",
+          "positionUuid": "2c1abfdd793e4bba",
           "positionName": "אעירה שחר",
           "endTime": "00:00"
         },
         {
-          "uuid": "d4dc5ea6c390454d",
+          "positionUuid": "d4dc5ea6c390454d",
+          "positionName": "סיור",
+          "endTime": "00:00"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2024-01-09",
+    "dayOfWeek": "tuesday",
+    "shiftsByStartTime": {
+      "00:00": [
+        {
+          "positionUuid": "27fff89f81434756",
+          "positionName": "מעלה שלמה",
+          "endTime": "06:00"
+        },
+        {
+          "positionUuid": "54a4fea46cdf4964",
+          "positionName": "ש\"ג",
+          "endTime": "06:00"
+        },
+        {
+          "positionUuid": "876006e8c50a44fe",
+          "positionName": "מעלה אהוביה",
+          "endTime": "06:00"
+        },
+        {
+          "positionUuid": "c64a008a02df4d97",
+          "positionName": "מעוז אסתר",
+          "endTime": "06:00"
+        },
+        {
+          "positionUuid": "2c1abfdd793e4bba",
+          "positionName": "אעירה שחר",
+          "endTime": "06:00"
+        },
+        {
+          "positionUuid": "78379838e8894630",
+          "positionName": "כוננות",
+          "endTime": "00:00"
+        },
+        {
+          "positionUuid": "d4dc5ea6c390454d",
+          "positionName": "סיור",
+          "endTime": "06:00"
+        }
+      ],
+      "06:00": [
+        {
+          "positionUuid": "27fff89f81434756",
+          "positionName": "מעלה שלמה",
+          "endTime": "12:00"
+        },
+        {
+          "positionUuid": "54a4fea46cdf4964",
+          "positionName": "ש\"ג",
+          "endTime": "12:00"
+        },
+        {
+          "positionUuid": "876006e8c50a44fe",
+          "positionName": "מעלה אהוביה",
+          "endTime": "12:00"
+        }
+      ],
+      "12:00": [
+        {
+          "positionUuid": "27fff89f81434756",
+          "positionName": "מעלה שלמה",
+          "endTime": "18:00"
+        },
+        {
+          "positionUuid": "54a4fea46cdf4964",
+          "positionName": "ש\"ג",
+          "endTime": "18:00"
+        },
+        {
+          "positionUuid": "876006e8c50a44fe",
+          "positionName": "מעלה אהוביה",
+          "endTime": "18:00"
+        }
+      ],
+      "18:00": [
+        {
+          "positionUuid": "27fff89f81434756",
+          "positionName": "מעלה שלמה",
+          "endTime": "00:00"
+        },
+        {
+          "positionUuid": "54a4fea46cdf4964",
+          "positionName": "ש\"ג",
+          "endTime": "00:00"
+        },
+        {
+          "positionUuid": "876006e8c50a44fe",
+          "positionName": "מעלה אהוביה",
+          "endTime": "00:00"
+        },
+        {
+          "positionUuid": "c64a008a02df4d97",
+          "positionName": "מעוז אסתר",
+          "endTime": "00:00"
+        },
+        {
+          "positionUuid": "2c1abfdd793e4bba",
+          "positionName": "אעירה שחר",
+          "endTime": "00:00"
+        },
+        {
+          "positionUuid": "d4dc5ea6c390454d",
           "positionName": "סיור",
           "endTime": "00:00"
         }

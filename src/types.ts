@@ -15,15 +15,6 @@ export interface Soldier {
     phone: string;
     email: string;
     roles: Role[];
-    activeDays: {
-        sunday: boolean;
-        monday: boolean;
-        tuesday: boolean;
-        wednesday: boolean;
-        thursday: boolean;
-        friday: boolean;
-        saturday: boolean;
-    };
     nonAvailabilities: NonAvailability[]; // רשימת תקופות שבהן החייל אינו זמין
 }
 
@@ -33,10 +24,9 @@ export interface Shift {
     days: Day[];
 }
 
-export interface PositionRequirement {
-    role: Role;
-    count: number;
-    maxCount?: number;
+export interface soldierRoles {
+    requireRoles: Role[];
+    forbiddenRoles: Role[];
 }
 
 export interface Position {
@@ -44,7 +34,7 @@ export interface Position {
     positionName: string;
     priority: Priority;
     shifts: Shift[];
-    requirements: PositionRequirement[]; // רשימת דרישות/תנאים לעמדה
+    soldiersRoles: soldierRoles[]; // רשימת דרישות/תנאים לעמדה
 }
 
 
@@ -75,17 +65,39 @@ export interface DaySchedule {
 export interface DayShifts {
     date: string; // The date in YYYY-MM-DD format
     dayOfWeek: Day; // The day of the week (e.g., 'monday', 'tuesday', etc.)
-    shiftStartTimes: Record<string, ShiftDetail[]>; // Object with start times as keys and arrays of shift details as values
+    shiftsByStartTime: Record<string, ShiftDetail[]>; // Object with start times as keys and arrays of shift details as values
 }
 
 export interface ShiftDetail {
-    uuid: string;
+    positionUuid: string;
     positionName: string;
     endTime: string;
+    candidtates?: Soldier[];
+}
+
+// Priorities
+
+export type ShiftTime = { startTime: string, endTime: string };
+export interface DayWithShifts {
+    date: string;
+    dayOfWeek: Day;
+    shifts: ShiftTime[];
 }
 
 export interface PositionOnPriorities {
     uuid: string;
     positionName: string;
-    requirements: PositionRequirement[]; // The type of requirements as provided by you
+    soldiersRoles: soldierRoles[];
+    daysWithShifts: DayWithShifts[];
+}
+
+export interface PositionsWithCandidatesByRoles {
+    uuid: string;
+    positionName: string;
+    rolesWithCandidates: RolesWithCandidates[];
+}
+
+export type RolesWithCandidates = {
+    role: string;
+    soldiers: Soldier[];
 }

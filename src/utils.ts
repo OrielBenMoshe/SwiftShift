@@ -1,5 +1,6 @@
 import { type } from "os";
-import { Day, Position, Soldier, DaySchedule, PositionWithShifts, ShiftWithSoldiers, SoldierOnShift, Shift, DayShifts, ShiftDetail, PositionOnPriorities, PositionRequirement } from "./types.js";
+import { Day, Position, Soldier, DaySchedule, PositionWithShifts, ShiftWithSoldiers, SoldierOnShift, Shift, DayShifts, ShiftDetail, PositionOnPriorities, soldierRoles, ShiftTime, DayWithShifts } from "./types.js";
+import dayjs from 'dayjs';
 
 /**
  * Function to create a schedule of shifts by days.
@@ -40,7 +41,7 @@ export const createShiftsByDays = (startDate: Date, numOfDays: number, positions
                     }
                     // Add the shift detail to the array for this start time
                     shiftStartTimes[shift.startTime].push({
-                        uuid: position.uuid, // Unique identifier for the position
+                        positionUuid: position.uuid, // Unique identifier for the position
                         positionName: position.positionName, // Name of the position
                         endTime: shift.endTime // End time of the shift
                     });
@@ -49,7 +50,7 @@ export const createShiftsByDays = (startDate: Date, numOfDays: number, positions
         });
 
         // Add the day's shift information to the array
-        dayShifts.push({ date: dateStr, dayOfWeek, shiftStartTimes });
+        dayShifts.push({ date: dateStr, dayOfWeek, shiftsByStartTime: shiftStartTimes });
 
         // Move to the next day
         currentDate.setDate(currentDate.getDate() + 1);
@@ -67,14 +68,6 @@ export const createShiftsByDays = (startDate: Date, numOfDays: number, positions
  * @returns PositionOnPriorities[]
  */
 export const createPrioritySortedPositions = (startDate: Date, numOfDays: number, positions: Position[]): PositionOnPriorities[] => {
-    type Shift = { startTime: string, endTime: string };
-
-    interface DayInfo {
-        date: string;
-        dayOfWeek: Day;
-        shifts: Shift[];
-    }
-
 
     // Sorting positions by priority
     const sortedPositions = positions.sort((a, b) => {
@@ -92,9 +85,9 @@ export const createPrioritySortedPositions = (startDate: Date, numOfDays: number
 
     // Creating a new array with the required data and day information
     return sortedPositions.map(position => {
-        const days: DayInfo[] = dates.map(date => {
+        const daysWithShifts: DayWithShifts[] = dates.map(date => {
             const dayOfWeek: Day = date.toLocaleDateString('en-US', { weekday: 'long' }).toLocaleLowerCase() as Day;
-            const shifts: Shift[] = position.shifts
+            const shifts: ShiftTime[] = position.shifts
                 .filter(shift => shift.days.includes(dayOfWeek))
                 .map(shift => ({ startTime: shift.startTime, endTime: shift.endTime }));
 
@@ -108,8 +101,19 @@ export const createPrioritySortedPositions = (startDate: Date, numOfDays: number
         return {
             uuid: position.uuid,
             positionName: position.positionName,
-            requirements: position.requirements,
-            days // Adding day information to each position
+            priority: position.priority,
+            soldiersRoles: position.soldiersRoles,
+            daysWithShifts: daysWithShifts // Adding days information to each position
         };
     });
+};
+
+/**
+ * Checks if the first time is before the second time.
+ * @param time1 The first time in "HH:mm" format.
+ * @param time2 The second time in "HH:mm" format.
+ * @returns `true` if the first time is before the second time, `false` otherwise.
+ */
+export const isTimeBefore = (time1: string, time2: string): boolean => {
+    return dayjs(time1, { format: "HH:mm" }).isBefore(dayjs(time2, { format: "HH:mm" }));
 };

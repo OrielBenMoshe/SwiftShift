@@ -7,16 +7,16 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
-        "nonAvailabilities": []
+        "nonAvailabilities": [
+            {
+                "startTime": "12:00",
+                "endTime": "17:00",
+                "days": [
+                    "sunday"
+                ],
+                "isPermanent": true
+            }
+        ]
     },
     {
         "uuid": "3647251591c24ea8",
@@ -26,15 +26,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -45,15 +36,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -64,15 +46,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -85,15 +58,6 @@
             "מפקד",
             "סייר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -106,15 +70,6 @@
             "מפקד",
             "סייר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -126,15 +81,6 @@
             "שומר",
             "סייר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -145,15 +91,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -164,15 +101,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -183,15 +111,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -202,15 +121,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -222,15 +132,6 @@
             "שומר",
             "סייר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -241,15 +142,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -260,15 +152,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -280,15 +163,6 @@
             "שומר",
             "סייר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -299,15 +173,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -319,15 +184,6 @@
             "שומר",
             "סייר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -338,15 +194,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -357,15 +204,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -376,15 +214,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -395,15 +224,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -414,15 +234,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -433,15 +244,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -452,15 +254,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -471,15 +264,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -491,15 +275,6 @@
             "שומר",
             "סייר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -510,15 +285,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -529,15 +295,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -548,15 +305,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -567,15 +315,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -586,15 +325,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -605,15 +335,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -625,15 +346,6 @@
             "שומר",
             "סייר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -644,15 +356,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -665,15 +368,6 @@
             "מפקד",
             "סייר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -685,15 +379,6 @@
             "שומר",
             "מפקד"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -704,15 +389,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -723,15 +399,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -742,15 +409,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -761,15 +419,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -780,15 +429,6 @@
         "roles": [
             "שומר"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     },
     {
@@ -799,15 +439,6 @@
         "roles": [
             "נהג"
         ],
-        "activeDays": {
-            "sunday": true,
-            "monday": true,
-            "tuesday": true,
-            "wednesday": true,
-            "thursday": true,
-            "friday": true,
-            "saturday": true
-        },
         "nonAvailabilities": []
     }
 ]

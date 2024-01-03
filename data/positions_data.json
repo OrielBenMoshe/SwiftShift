@@ -54,16 +54,19 @@
                 ]
             }
         ],
-        "requirements": [
+        "soldiersRoles": [
             {
-                "role": "שומר",
-                "count": 2,
-                "maxCount": null
+                "requireRoles": [
+                    "שומר"
+                ]
             },
             {
-                "role": "חדש",
-                "count": 1,
-                "maxCount": 1
+                "requireRoles": [
+                    "שומר"
+                ],
+                "forbiddenRoles": [
+                    "חדש"
+                ]
             }
         ]
     },
@@ -124,16 +127,19 @@
                 ]
             }
         ],
-        "requirements": [
+        "soldiersRoles": [
             {
-                "role": "שומר",
-                "count": 2,
-                "maxCount": null
+                "requireRoles": [
+                    "שומר"
+                ]
             },
             {
-                "role": "חדש",
-                "count": 1,
-                "maxCount": 1
+                "requireRoles": [
+                    "שומר"
+                ],
+                "forbiddenRoles": [
+                    "חדש"
+                ]
             }
         ]
     },
@@ -194,16 +200,19 @@
                 ]
             }
         ],
-        "requirements": [
+        "soldiersRoles": [
             {
-                "role": "שומר",
-                "count": 2,
-                "maxCount": null
+                "requireRoles": [
+                    "שומר"
+                ]
             },
             {
-                "role": "חדש",
-                "count": 1,
-                "maxCount": 1
+                "requireRoles": [
+                    "שומר"
+                ],
+                "forbiddenRoles": [
+                    "חדש"
+                ]
             }
         ]
     },
@@ -238,16 +247,19 @@
                 ]
             }
         ],
-        "requirements": [
+        "soldiersRoles": [
             {
-                "role": "שומר",
-                "count": 2,
-                "maxCount": null
+                "requireRoles": [
+                    "שומר"
+                ]
             },
             {
-                "role": "חדש",
-                "count": 1,
-                "maxCount": 1
+                "requireRoles": [
+                    "שומר"
+                ],
+                "forbiddenRoles": [
+                    "חדש"
+                ]
             }
         ]
     },
@@ -282,16 +294,19 @@
                 ]
             }
         ],
-        "requirements": [
+        "soldiersRoles": [
             {
-                "role": "שומר",
-                "count": 2,
-                "maxCount": null
+                "requireRoles": [
+                    "שומר"
+                ]
             },
             {
-                "role": "חדש",
-                "count": 1,
-                "maxCount": 1
+                "requireRoles": [
+                    "שומר"
+                ],
+                "forbiddenRoles": [
+                    "חדש"
+                ]
             }
         ]
     },
@@ -314,21 +329,57 @@
                 ]
             }
         ],
-        "requirements": [
+        "soldiersRoles": [
             {
-                "role": "שומר",
-                "count": 6,
-                "maxCount": null
+                "requireRoles": [
+                    "שומר",
+                    "מפקד"
+                ],
+                "forbiddenRoles": [
+                    "חדש"
+                ]
             },
             {
-                "role": "מפקד",
-                "count": 1,
-                "maxCount": 1
+                "requireRoles": [
+                    "שומר"
+                ],
+                "forbiddenRoles": [
+                    "מפקד"
+                ]
             },
             {
-                "role": "חדש",
-                "count": 2,
-                "maxCount": 2
+                "requireRoles": [
+                    "שומר"
+                ],
+                "forbiddenRoles": [
+                    "מפקד"
+                ]
+            },
+            {
+                "requireRoles": [
+                    "שומר"
+                ],
+                "forbiddenRoles": [
+                    "חדש",
+                    "מפקד"
+                ]
+            },
+            {
+                "requireRoles": [
+                    "שומר"
+                ],
+                "forbiddenRoles": [
+                    "חדש",
+                    "מפקד"
+                ]
+            },
+            {
+                "requireRoles": [
+                    "שומר"
+                ],
+                "forbiddenRoles": [
+                    "חדש"
+                ]
             }
         ]
     },
@@ -364,16 +415,16 @@
                 ]
             }
         ],
-        "requirements": [
+        "soldiersRoles": [
             {
-                "role": "סייר",
-                "count": 1,
-                "maxCount": 1
+                "requireRoles": [
+                    "נהג"
+                ]
             },
             {
-                "role": "נהג",
-                "count": 1,
-                "maxCount": 1
+                "requireRoles": [
+                    "סייר"
+                ]
             }
         ]
     }
